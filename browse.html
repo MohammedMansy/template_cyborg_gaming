@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/master.css">
+
+    <script src="js/jquery-3.6.1.min.js" ></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+
+</head>
+<body>
+     <!-- Start PreLoading-->
+  <div id="preloading" >
+    <div class="spinner" >
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </div>
+   <!-- End PreLoading-->
+  
+  
+    <!-- Start Navbar-->
+    <nav id="myNav" class="navbar navbar-expand-lg py-lg-3 navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <form id="search" class="d-flex">
+          <input class="form-control ms-5" type="search" placeholder="Type Something" aria-label="Search">
+          <i class="fa fa-search"></i>
+        </form>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active " href="browse.html">Browse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="detail.html">Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="stream.html">Streams</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link profile  d-flex justify-content-between align-items-center " href="profile.html">
+                Profile
+                <img  src="images/profile-header.jpg" alt="Profile">
+              </a>
+            </li>
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+   <!-- End Navbar-->
+
+     <!-- Start section Browse -->
+    <section id="browse">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="main-section">
+              <div class="col-lg-12">
+                <div class="first-section">
+                  <div class="row">
+                    <div class="col-lg-8 col-md-12 ">
+                      <div class="Featured-Games">
+                        <div class=" col-lg-12 heading-featured">
+                          <h4><em>Featured</em> Games</h4>
+                        </div>
+    
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <div class="row text-center ">
+                                <div class="col-lg-6 col-xl-4 col-sm-6  ">
+                                  <div class="item-featured">
+                                    <div class=" position-relative overflow-hidden ">
+                                      <img src="images/featured-01.jpg" alt="">
+                                      <div class="position-absolute hover-effect ">
+                                        <h6>2.4K Streaming</h6>
+                                      </div>
+                                    </div>
+                                    <div class=" info-featured mt-3 d-flex justify-content-around   ">
+                                      <h4 class=" text-white">
+                                        CS-GO
+                                        <br>
+                                        <span>249K Downloads</span>
+                                      </h4>
+    
+                                      <ul class="  text-white">
+                                        <li class=" d-flex "><i class="fa fa-star"></i>4.8</li>
+                                        <li class=" d-flex "><i class="fa fa-download"></i>2.3M</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-6 col-xl-4 col-sm-6  ">
+                                  <div class="item-featured">
+                                    <div class=" position-relative overflow-hidden ">
+                                      <img src="images/featured-02.jpg" alt="">
+                                      <div class="position-absolute hover-effect ">
+                                        <h6>2.4K Streaming</h6>
+                                      </div>
+                                    </div>
+                                    <div class=" info-featured mt-3 d-flex justify-content-around   ">
+                                      <h4 class=" text-white">
+                                        Gamezer
+                                        <br>
+                                        <span>249K Downloads</span>
+                                      </h4>
+    
+                                      <ul class="  text-white">
+                                        <li class=" d-flex "><i class="fa fa-star"></i>4.8</li>
+                                        <li class=" d-flex "><i class="fa fa-download"></i>2.3M</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-6 col-xl-4 col-sm-6  ">
+                                  <div class="item-featured">
+                                    <div class=" position-relative overflow-hidden ">
+                                      <img src="images/featured-03.jpg" alt="">
+                                      <div class="position-absolute hover-effect ">
+                                        <h6>2.4K Streaming</h6>
+                                      </div>
+                                    </div>
+                                    <div class=" info-featured mt-3 d-flex justify-content-around   ">
+                                      <h4 class=" text-white">
+                                        Island Rusty
+                                        <br>
+                                        <span>249K Downloads</span>
+                                      </h4>
+    
+                                      <ul class="  text-white">
+                                        <li class=" d-flex "><i class="fa fa-star"></i>4.8</li>
+                                        <li class=" d-flex "><i class="fa fa-download"></i>2.3M</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="row text-center ">
+                                <div class="col-lg-6 col-xl-4 col-sm-6  ">
+                                  <div class="item-featured">
+                                    <div class=" position-relative overflow-hidden ">
+                                      <img src="images/featured-01.jpg" alt="">
+                                      <div class="position-absolute hover-effect ">
+                                        <h6>2.4K Streaming</h6>
+                                      </div>
+                                    </div>
+                                    <div class=" info-featured mt-3 d-flex justify-content-around   ">
+                                      <h4 class=" text-white">
+                                        CS-GO
+                                        <br>
+                                        <span>249K Downloads</span>
+                                      </h4>
+    
+                                      <ul class="  text-white">
+                                        <li class=" d-flex "><i class="fa fa-star"></i>4.8</li>
+                                        <li class=" d-flex "><i class="fa fa-download"></i>2.3M</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-6 col-xl-4 col-sm-6  ">
+                                  <div class="item-featured">
+                                    <div class=" position-relative overflow-hidden ">
+                                      <img src="images/featured-02.jpg" alt="">
+                                      <div class="position-absolute hover-effect ">
+                                        <h6>2.4K Streaming</h6>
+                                      </div>
+                                    </div>
+                                    <div class=" info-featured mt-3 d-flex justify-content-around   ">
+                                      <h4 class=" text-white">
+                                        Gamezer
+                                        <br>
+                                        <span>249K Downloads</span>
+                                      </h4>
+    
+                                      <ul class="  text-white">
+                                        <li class=" d-flex "><i class="fa fa-star"></i>4.8</li>
+                                        <li class=" d-flex "><i class="fa fa-download"></i>2.3M</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-6 col-xl-4 col-sm-6  ">
+                                  <div class="item-featured">
+                                    <div class=" position-relative overflow-hidden ">
+                                      <img src="images/featured-03.jpg" alt="">
+                                      <div class="position-absolute hover-effect ">
+                                        <h6>2.4K Streaming</h6>
+                                      </div>
+                                    </div>
+                                    <div class=" info-featured mt-3 d-flex justify-content-around   ">
+                                      <h4 class=" text-white">
+                                        Island Rusty
+                                        <br>
+                                        <span>249K Downloads</span>
+                                      </h4>
+    
+                                      <ul class="  text-white">
+                                        <li class=" d-flex "><i class="fa fa-star"></i>4.8</li>
+                                        <li class=" d-flex "><i class="fa fa-download"></i>2.3M</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="row text-center ">
+                                <div class="col-lg-6 col-xl-4 col-sm-6  ">
+                                  <div class="item-featured">
+                                    <div class=" position-relative overflow-hidden ">
+                                      <img src="images/featured-01.jpg" alt="">
+                                      <div class="position-absolute hover-effect ">
+                                        <h6>2.4K Streaming</h6>
+                                      </div>
+                                    </div>
+                                    <div class=" info-featured mt-3 d-flex justify-content-around   ">
+                                      <h4 class=" text-white">
+                                        CS-GO
+                                        <br>
+                                        <span>249K Downloads</span>
+                                      </h4>
+    
+                                      <ul class="  text-white">
+                                        <li class=" d-flex "><i class="fa fa-star"></i>4.8</li>
+                                        <li class=" d-flex "><i class="fa fa-download"></i>2.3M</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-6 col-xl-4 col-sm-6  ">
+                                  <div class="item-featured">
+                                    <div class=" position-relative overflow-hidden ">
+                                      <img src="images/featured-02.jpg" alt="">
+                                      <div class="position-absolute hover-effect ">
+                                        <h6>2.4K Streaming</h6>
+                                      </div>
+                                    </div>
+                                    <div class=" info-featured mt-3 d-flex justify-content-around   ">
+                                      <h4 class=" text-white">
+                                        Gamezer
+                                        <br>
+                                        <span>249K Downloads</span>
+                                      </h4>
+    
+                                      <ul class="  text-white">
+                                        <li class=" d-flex "><i class="fa fa-star"></i>4.8</li>
+                                        <li class=" d-flex "><i class="fa fa-download"></i>2.3M</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-6 col-xl-4 col-sm-6  ">
+                                  <div class="item-featured">
+                                    <div class=" position-relative overflow-hidden ">
+                                      <img src="images/featured-03.jpg" alt="">
+                                      <div class="position-absolute hover-effect ">
+                                        <h6>2.4K Streaming</h6>
+                                      </div>
+                                    </div>
+                                    <div class=" info-featured mt-3 d-flex justify-content-around   ">
+                                      <h4 class=" text-white">
+                                        Island Rusty
+                                        <br>
+                                        <span>249K Downloads</span>
+                                      </h4>
+    
+                                      <ul class="  text-white">
+                                        <li class=" d-flex "><i class="fa fa-star"></i>4.8</li>
+                                        <li class=" d-flex "><i class="fa fa-download"></i>2.3M</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="Top-Downloaded  ">
+                        <div class="heading-dowenloaded">
+                          <h4><em>Top </em> Downloaded</h4>
+                        </div>
+                        <ul class="text-white">
+                          <li class="d-flex justify-content-between ">
+                            <div>
+                              <img src="images/game-01.jpg" alt="">
+                            </div>
+                            <div>
+                              <h4>Fortnite</h4>
+                              <h6>Sandbox</h6>
+                              <span class=" d-inline-block "><i class="fa fa-star" style="color: yellow;"></i> 4.9</span>
+                              <span class=" d-inline-block "><i class="fa fa-download" style="color: #ec6090;"></i>
+                                2.2M</span>
+                            </div>
+                            <div class="download">
+                              <a href="#"><i class="fa fa-download" style="color: #ec6090;"></i></a>
+                            </div>
+                          </li>
+                          <li class="d-flex justify-content-between ">
+                            <div>
+                              <img src="images/game-02.jpg" alt="">
+                            </div>
+                            <div>
+                              <h4>CS-GO</h4>
+                              <h6>Legendary</h6>
+                              <span class=" d-inline-block "><i class="fa fa-star" style="color: yellow;"></i> 4.9</span>
+                              <span class=" d-inline-block "><i class="fa fa-download" style="color: #ec6090;"></i>
+                                2.2M</span>
+                            </div>
+                            <div class="download">
+                              <a href="#"><i class="fa fa-download" style="color: #ec6090;"></i></a>
+                            </div>
+                          </li>
+                          <li class="d-flex justify-content-between ">
+                            <div>
+                              <img src="images/game-03.jpg" alt="">
+                            </div>
+                            <div>
+                              <h4>PugG</h4>
+                              <h6>Battle Royale</h6>
+                              <span class=" d-inline-block "><i class="fa fa-star" style="color: yellow;"></i> 4.9</span>
+                              <span class=" d-inline-block "><i class="fa fa-download" style="color: #ec6090;"></i>
+                                2.2M</span>
+                            </div>
+                            <div class="download">
+                              <a href="#"><i class="fa fa-download" style="color: #ec6090;"></i></a>
+                            </div>
+                          </li>
+                          <li class="d-flex justify-content-center  ">
+                            <a style="color:#ec6090 ;" class=" fw-bold text-decoration-none " href="#">View All Games</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="second-section py-5 ">
+                  <div class="live-stream text-center py-3 ">
+                    <h4><em>How To Start Your</em> Live Stream</h4>
+                  </div>
+                  <div class="row text-center text-white ">
+                    <div class="col-lg-4 ">
+                      <div class="item-live">
+                        <img src="images/service-01.jpg" alt="">
+                        <h4>Go To Your Profile</h4>
+                        <p>Cyborg Gaming is free HTML CSS website template provided by TemplateMo.
+                          This is Bootstrap v5.2.0 layout.</p>
+                      </div>
+    
+                    </div>
+    
+                    <div class="col-lg-4 ">
+                      <div class="item-live">
+                        <img src="images/service-02.jpg" alt="">
+                        <h4>Live Stream Button</h4>
+                        <p>If you wish to support us, you can make a small contribution via PayPal to info [at]
+                          templatemo.com</p>
+                      </div>
+                    </div>
+    
+                    <div class="col-lg-4 ">
+                      <div class="item-live">
+                        <img src="images/service-03.jpg" alt="">
+                        <h4>You Are Live</h4>
+                        <p>You are not allowed to redistribute this template's downloadable ZIP file on any other template
+                          collection website.</p>
+                      </div>
+    
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="main-button">
+                        <a href="profile.html">Go To Profile</a>
+                      </div>
+                    </div>
+    
+    
+                  </div>
+                </div>
+    
+                <div class="three-section">
+                  <div class="col-lg-12">
+                    <div class="live-stream ">
+                      <h4><em>Most Popular</em> Live Stream</h4>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-3 col-sm-6 ">
+                        <div class="item-stream">
+                          <div class="thumb">
+                            <img src="images/stream-01.jpg" alt="">
+                          </div>
+                          <div class="down-content text-white ">
+                            <div>
+                              <img src="images/avatar-01.jpg" alt="">
+                              <span class=" d-inline-block "><i class="fa fa-check"></i> KenganC </span>
+                              <h4>Just Talking With Fans</h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 ">
+                        <div class="item-stream">
+                          <div class="thumb">
+                            <img src="images/stream-02.jpg" alt="">
+                          </div>
+                          <div class="down-content text-white ">
+                            <div>
+                              <img src="images/avatar-02.jpg" alt="">
+                              <span class=" d-inline-block "><i class="fa fa-check"></i> LunaMa </span>
+                              <h4>CS-GO 36 Hours Live Stream</h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 ">
+                        <div class="item-stream">
+                          <div class="thumb">
+                            <img src="images/stream-03.jpg" alt="">
+                          </div>
+                          <div class="down-content text-white ">
+                            <div>
+                              <img src="images/avatar-03.jpg" alt="">
+                              <span class=" d-inline-block "><i class="fa fa-check"></i> Areluwa </span>
+                              <h4>Maybe Nathej Allnight Chillin'</h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 ">
+                        <div class="item-stream">
+                          <div class="thumb">
+                            <img src="images/stream-04.jpg" alt="">
+                          </div>
+                          <div class="down-content text-white ">
+                            <div>
+                              <img src="images/avatar-04.jpg" alt="">
+                              <span class=" d-inline-block "><i class="fa fa-check"></i> GangTm </span>
+                              <h4>Live Streaming Till Morning</h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="main-button text-center ">
+                          <a href="stream.html">Discover All Streams</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <footer id="myFooter" class="py-5 text-center ">
+          <p class="text-white">Copyright © 2036 <a href="">Cyborg Gaming</a> Company. All rights reserved.</p>
+          <p class="text-white">Design: <a class="text-decoretion-none" href="">TemplateMo</a></p>
+        </footer>
+      </div>
+    </section>
+
+
+     <script src="js/pluign.js" ></script>
+</body>
+</html>

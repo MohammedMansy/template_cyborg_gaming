@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/master.css">
+
+    <script src="js/jquery-3.6.1.min.js" ></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+</head>
+<body>
+     <!-- Start PreLoading-->
+  <div id="preloading" >
+    <div class="spinner" >
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </div>
+   <!-- End PreLoading-->
+  
+    <!-- Start Navbar-->
+    <nav id="myNav" class="navbar navbar-expand-lg py-lg-3 navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <form id="search" class="d-flex">
+            <input class="form-control ms-5" type="search" placeholder="Type Something" aria-label="Search">
+            <i class="fa fa-search"></i>
+          </form>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="browse.html">Browse</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="detail.html">Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="stream.html">Streams</a>
+              </li>
+              <li class="nav-item  ">
+                <a class="nav-link  profile active  d-flex justify-content-between align-items-center " href="profile.html">
+                  Profile
+                  <img  src="images/profile-header.jpg" alt="Profile">
+                </a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+     <!-- End Navbar-->
+
+    <section id="profile">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="master-content">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="section-one">
+                    <div class="row ">
+                      <div class="col-lg-4">
+                        <img src="images/profile.jpg" alt="">
+                      </div>
+                      <div class="col-lg-4 align-self-center ">
+                        <div class="main-info">
+                          <span>Offline</span>
+                          <h4>Alan Smithee</h4>
+                          <p>You Haven't Gone Live yet.
+                            Go Live By Touching The Button Below.
+                          </p>
+                          <div class="main-button">
+                            <a class=" text-decoration-none " href="#">Start Live Stream</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 align-self-center ">
+                        <ul class=" list-unstyled ">
+                          <li>Games Downloaded <span>3</span> </li>
+                          <li>Friends Online <span>16</span></li>
+                          <li>Live Streams <span>12</span> </li>
+                          <li>Clips <span>29</span> </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="clips">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="heading-selection">
+                                <h4>
+                                  <em>Your Most Popular</em>
+                                  Clips
+                                </h4>
+                              </div>
+                            </div>
+                            <div class="col-lg-3">
+                              <div class="item">
+                                <div class=" thumb">
+                                  <img src="images/clip-01.jpg" alt="">
+                                  <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank"><i
+                                      class="fa fa-play"></i></a>
+                                </div>
+                                <div>
+                                  <h4>First Clip</h4>
+                                  <span><i class="fa fa-eye" style="color:#ec6090"></i> 250</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3">
+                              <div class="item">
+                                <div class=" thumb">
+                                  <img src="images/clip-02.jpg" alt="">
+                                  <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank"><i
+                                      class="fa fa-play"></i></a>
+                                </div>
+                                <div>
+                                  <h4>Second Clip</h4>
+                                  <span><i class="fa fa-eye" style="color:#ec6090"></i> 183</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3">
+                              <div class="item">
+                                <div class=" thumb">
+                                  <img src="images/clip-03.jpg" alt="">
+                                  <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank"><i
+                                      class="fa fa-play"></i></a>
+                                </div>
+                                <div>
+                                  <h4>Third Clip</h4>
+                                  <span><i class="fa fa-eye" style="color:#ec6090"></i> 141</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3">
+                              <div class="item">
+                                <div class=" thumb">
+                                  <img src="images/clip-04.jpg" alt="">
+                                  <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank"><i
+                                      class="fa fa-play"></i></a>
+                                </div>
+                                <div>
+                                  <h4>Fourth Clip</h4>
+                                  <span><i class="fa fa-eye" style="color:#ec6090"></i> 91</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-12">
+                              <div class="main-button text-center  ">
+                                <a class="text-decoration-none " href="stream.html">Load More Clips</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <section id="all">
+                    <div class="gaming-library">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="heading-popular">
+                            <h4><em>Your Gaming</em> Library</h4>
+                          </div>
+                          <div class="row text-center ">
+                            <div class="col-lg-12">
+                              <div class="item-popular">
+    
+                                <div class="row py-3  ">
+                                  <div class="col-lg-2 col-sm-12 text-center  ">
+                                    <img style="max-width:80px ;" src="images/popular-02.jpg" alt="">
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                    <h4>
+                                      CS-GO
+                                      <br>
+                                      <span>Sandbox</span>
+                                    </h4>
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                    <h4>
+                                      Date Added
+                                      <br>
+                                      <span>21/08/2036</span>
+                                    </h4>
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                    <h4>
+                                      Hours Played
+                                      <br>
+                                      <span>892 H 14 Mins</span>
+                                    </h4>
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                    <h4>
+                                      Currently
+                                      <br>
+                                      <span>Downloaded</span>
+                                    </h4>
+                                  </div>
+                                  <div class="col-lg-2 col-sm-12 text-center ">
+                                    <div class=" library-button ">
+                                      <a href="">Donwloaded</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row py-3 ">
+                                  <div class="col-lg-2 col-sm-12 text-center  ">
+                                    <img style="max-width:80px ;" src="images/popular-01.jpg" alt="">
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                    <h4>
+                                      Date Added
+                                      <br>
+                                      <span>Sandbox</span>
+                                    </h4>
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                    <h4>
+                                      Date Added
+                                      <br>
+                                      <span>22/06/2036</span>
+                                    </h4>
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                    <h4>
+                                      Hours Played
+                                      <br>
+                                      <span>740 H 52 Mins</span>
+                                    </h4>
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                    <h4>
+                                      Currently
+                                      <br>
+                                      <span>Downloaded</span>
+                                    </h4>
+                                  </div>
+                                  <div class="col-lg-2 col-sm-12 text-center ">
+                                    <div class=" library-button special-button ">
+                                      <a href="">Donwloaded</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row py-3 ">
+                                  <div class="col-lg-2 col-sm-12 text-center  ">
+                                    <img style="max-width:80px ;" src="images/popular-05.jpg" alt="">
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                    <h4>
+                                      Fortnite
+                                      <br>
+                                      <span>Sandbox</span>
+                                    </h4>
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                    <h4>
+                                      Date Added
+                                      <br>
+                                      <span>24/08/2036</span>
+                                    </h4>
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                    <h4>
+                                      Hours Played
+                                      <br>
+                                      <span>634 H 22 Mins</span>
+                                    </h4>
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                    <h4>
+                                      Currently
+                                      <br>
+                                      <span>Downloaded</span>
+                                    </h4>
+                                  </div>
+                                  <div class="col-lg-2 col-sm-12 text-center ">
+                                    <div class=" library-button ">
+                                      <a href="">Donwloaded</a>
+                                    </div>
+                                  </div>
+                                </div>
+    
+                              </div>
+    
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                    </div>
+                  </section>
+    
+                </div>
+              </div>
+    
+            </div>
+            <div class="col-lg-12">
+              <footer id="myFooter" class="py-5 text-center ">
+                <p class="text-white">Copyright © 2036 <a href="">Cyborg Gaming</a> Company. All rights reserved.</p>
+                <p class="text-white">Design: <a class="text-decoretion-none" href="">TemplateMo</a></p>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+       
+     <script src="js/pluign.js" ></script>
+</body>
+</html>
